@@ -1,0 +1,55 @@
+body{
+  background-color: azure;
+  font-family:helvetica, sans-serif, arial;
+  margin:10px 20px 10px 20px;
+}
+
+h1, h2{
+  color: black;
+  font-size: 27px;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-size: 25px;
+  font-style: fantasy;
+  text-align: center;
+
+}
+
+
+#header{
+  border: 2px solid teal;
+  padding: 20px;
+  font-weight: bold;
+}
+p.ridge {outline-style: dashed;}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scale3d(-1);
+}
+
+h1 {
+  background-color: lavender;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: cyan;
+}
+
+button {
+  background-color: green;
+  border: none;
+  padding: 15px 30px
+  text-align: center;
+  text-decoration: inherit;
+  color: lavender;
+  font-size: 15px;
+  display: inline-block;
+}
